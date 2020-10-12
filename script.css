@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+}
+
+#jumbledWord{
+    font-size: x-large;
+}
+#possWords{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 85px);
+    justify-content: center;
+    padding: 10px;
+}
+
+.slot{
+    background-color: aqua;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    height: 30px;
+    text-align: center;
+    font-size: large;  
+}

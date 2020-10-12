@@ -131,6 +131,18 @@ function checkWord() {
   }
 }
 
+function instruction(){
+  $("#instructions").hide();
+  $("#rules").show();
+  $("#return").show();
+}
+
+function returnB(){
+  $("#instructions").show();
+  $("#rules").hide();
+  $("#return").hide();
+}
+
 
 
 

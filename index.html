@@ -12,16 +12,29 @@
 <div id="titleScreen">
     <h1 id="title">Word Unscrambler</h1>
     <button id="start" onclick="playGame()">Begin!</button>
-    <button id="instructions">How to Play</button>
+    <button id="instructions" onclick="instruction()">How to Play</button>
+
+</div>
+
+<div id="info">
+    <span id="rules" style="display: none;">In this game, all you have to do is find words within the jumbled word that
+        is show at the top of your screen. There will be a grid
+        to show you how many words there are, and how long each word is. You only get 6 wrong attempts each level and
+        when you reach those 6,
+        you lose. There are currently only 5 levels, so try your best!</span>
+
+</div>
+<div>
+    <button id="return" onclick="returnB()" style="display: none;">Thanks for the info!</button>
 </div>
 
 <body id="game">
-    <h2 id = "jumbledWord" style="display: none;"></h2>
+    <h2 id="jumbledWord" style="display: none;"></h2>
     <input id="guesses" style="display: none;" onfocus="this.value = ''">
-    <button id = "check" style="display: none;" onclick="checkWord()">Check Guess</button>
+    <button id="check" style="display: none;" onclick="checkWord()">Check Guess</button>
     <div id="possWords"></div>
 </body>
 
-<footer id = "bot">
-    
+<footer id="bot">
+
 </footer>

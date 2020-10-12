@@ -1,10 +1,20 @@
 body{
     background-color: grey;
+    
 }
 
 #jumbledWord{
-    font-size: x-large;
+    font-size: 150%;
 }
+
+#info{
+    padding: 10px;
+    padding-right: 80%;
+}
+
+
+
+
 #possWords{
     display: grid;
     grid-gap: 20px;
@@ -14,7 +24,7 @@ body{
 }
 
 .slot{
-    background-color: aqua;
+    background-color:whitesmoke;
     border: 1px solid rgb(0, 0, 0, 0.8);
     height: 30px;
     text-align: center;
